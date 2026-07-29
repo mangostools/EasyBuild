@@ -1,6 +1,6 @@
 @echo off
 :main
-if not exist ..\..\src\modules\Eluna\.git goto eluna:
+if not exist ..\src\modules\Eluna\.git goto eluna:
 REM if not exist ..\src\tools\Extractor_projects\.git goto extractors:
 goto endpoint:
 
